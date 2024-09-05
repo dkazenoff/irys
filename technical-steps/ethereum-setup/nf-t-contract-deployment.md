@@ -36,11 +36,16 @@ You can run "foundry create -h" to get a list of all the possible arguments. If 
 
 Verifying the contract allows you and the public to view the functions and code that make up the contract. This is important for building trust and assuring the community that you are more legit.
 
+Again, stay vigilant of the constructor requirements from the contract. Staying organized is key!
 
-
-
-
-```
+```bash
+forge verify-contract 0x20BEa03DdD82C7EE63f0B2AcAee655f8248d7b09 \
+    contracts/SuperPowerNFT.sol:SuperPowerNFT \
+    --chain sepolia \
+    --constructor-args $(cast abi-encode "constructor(string,string,string)" "SuperPowerNFT" "SPNFT" "https://devnet.irys.xyz/3CiqtD8C2e8fycQs1VRzwmBeuqHGmltpDRC4Vo8hRqs") \
+    --etherscan-api-key 5Y4H......DU2T5 \
+    --compiler-version 0.8.0 \
+    --watch
 ```
 
 
