@@ -1,7 +1,7 @@
 ---
 description: >-
-  Let's create the metadata ahead of time and upload it to Arweave so that we
-  can launch the NFT with existing data.
+  Let's create the metadata ahead of time and upload it so that we can launch
+  the NFT with existing data.
 ---
 
 # NFT Metadata Upload
