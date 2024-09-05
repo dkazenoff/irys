@@ -18,7 +18,7 @@ forge build
 
 Be sure that your constructor arguments align with the solidity code itself
 
-```
+```bash
 forge create  contracts/SuperPowerNFT.sol:SuperPowerNFT \
 --rpc-url https://sepolia.ethereum.validationcloud.io/v1/Hk4H82VinPWoRLLIr_awwziFmE0rAQMLyyDlV5ID94E \
 --private-key <your_raw_private_key> \
