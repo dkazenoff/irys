@@ -29,7 +29,7 @@ npm install --global yarn
 Now lets install some of the core dependencies:
 
 ```bash
-mkdir upgradeable-nft && cd upgradeable-nft
+mkdir superpower-nft && cd superpower-nft
 yarn init -y
 yarn add typescript @types/node ts-node ethers @openzeppelin/contracts@4.3.2
 
@@ -50,7 +50,7 @@ Now, Foundry is installed. We’ll also need to configure the `foundry.toml` fil
 
 ```toml
 [default]
-solc_version = "0.8.20"  # Specify the Solidity version you’re using
+solc_version = "0.8.0"  # Specify the Solidity version you’re using
 optimizer = true          # Enable optimizer for the compiler
 optimizer_runs = 200      # Default optimization runs
 sepolia = "https://sepolia.ethereum.validationcloud.io/v1/Hk4H82VinPWoRLLIr_awwziFmE0rAQMLyyDlV5ID94E"
