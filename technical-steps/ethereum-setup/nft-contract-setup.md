@@ -19,7 +19,6 @@ We’ll use OpenZeppelin’s **upgradeable contracts** to make this flexible for
 1. Create a folder called `contracts/` in your root project directory.
 2. Add a new file called `SuperPowerNFT.sol`
 
-````solidity
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
@@ -78,7 +77,6 @@ contract SuperPowerNFT is ERC721URIStorage, Ownable {
 
 }
 ```
-````
 
 
 
