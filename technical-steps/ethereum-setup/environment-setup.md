@@ -102,14 +102,14 @@ package.json:
   "scripts": {
     "build": "tsc",
     "upload": "ts-node ./scripts/data_uploader.ts",
-    "deploy": "ts-node ./nft_deploy.ts"
+    "deploy": "ts-node ./scripts/nft_deploy.ts",
+    "upgrade": "ts-node ./scripts/upgrade.ts"
   },
   "dependencies": {
     "@irys/sdk": "^0.2.11",
     "@irys/upload": "^0.0.1",
     "@irys/upload-ethereum": "^0.0.1",
-    "@openzeppelin/contracts": "^5.0.2",
-    "@openzeppelin/contracts-upgradeable": "^5.0.2",
+    "@openzeppelin/contracts": "4.3.2",
     "@types/node": "^22.5.4",
     "ethers": "^6.13.2",
     "ts-node": "^10.9.2",
