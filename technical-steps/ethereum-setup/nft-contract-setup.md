@@ -8,13 +8,7 @@ description: >-
 
 We're going to make an ERC721 NFT that contains special superpowers that can be upgraded over time.&#x20;
 
-
-
-**1. Create the Contract**
-
-We’ll use OpenZeppelin’s **upgradeable contracts** to make this flexible for future updates.
-
-**Steps for the tutorial**:
+**Steps**:
 
 1. Create a folder called `contracts/` in your root project directory.
 2. Add a new file called `SuperPowerNFT.sol`
